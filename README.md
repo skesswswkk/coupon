@@ -17,7 +17,7 @@
   - Redis List (발급 Queue)
   - Queue Polling Scheduler 
 
-#성능 및 결과
+# 성능 및 결과
 - server spec
   - coupon-api, coupon-consumer -> t2.medium (2core, 4G) 
   - Mysql -> db.t3.micro (free-tier)
