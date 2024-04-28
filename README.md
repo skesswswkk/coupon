@@ -30,11 +30,10 @@
   - Failed Requests : 1,315
   - Failure rate : 0.077%   
   - RPS : 4958  
-  
-### Response Statics
-- p50 : 900 ms  
-- p70 : 1200 ms  
-- p90 : 1500 ms  
-- p90 : 2000 ms  
-- p99 : 3600 ms  
-- max : 14000 ms
+- Response Statics
+  - p50 : 900 ms  
+  - p70 : 1200 ms  
+  - p90 : 1500 ms  
+  - p90 : 2000 ms  
+  - p99 : 3600 ms  
+  - max : 14000 ms
