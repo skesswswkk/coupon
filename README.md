@@ -1,12 +1,14 @@
-# 사용기술
+# 단일 서버로 4,000/TPS 이상 커버 가능 선착순 쿠폰 시스템
+
+## 사용기술
 - Java 17, Spring Boot 3.1, MySQL, Redis, Gradle, Locust, Promethous, Grafana
 
-# 시나리오
+## 시나리오
 - 이벤트 기간내에(ex 2023-11-03일 오후 1시 ~ 2023-11-04일 오후 1시) 발급이 가능합니다.
 - 선착순 이벤트는 유저당 1번의 쿠폰 발급만 가능합니다.
 - 선착순 쿠폰의 최대 쿠폰 발급 수량을 설정할 수 있어야합니다.
 
-# 프로그램 주요 기능
+## 프로그램 주요 기능
 - 쿠폰 발급 검증
   - 발급 기한
   - 발급 수량
@@ -17,7 +19,7 @@
   - Redis List (발급 Queue)
   - Queue Polling Scheduler 
 
-# 성능 및 결과
+## 성능 및 결과
 - server spec
   - coupon-api, coupon-consumer -> t2.medium (2core, 4G) 
   - Mysql -> db.t3.micro (free-tier)
